@@ -211,6 +211,17 @@ main {
   border-top-right-radius: 16px;
 }
 
+.projects-caption__title {
+  display: block;
+}
+
+.projects-caption__subtitle {
+  display: block;
+  font-weight: 500;
+  opacity: 0.9;
+  margin-top: 4px;
+}
+
 .projects-table th,
 .projects-table td {
   padding: 14px 16px;

@@ -147,7 +147,10 @@ const renderProjects = () => {
       return `
         <section class="card">
           <table class="projects-table">
-            <caption class="projects-caption">${group.title}</caption>
+            <caption class="projects-caption">
+              <span class="projects-caption__title">${group.title}</span>
+              ${group.subtitle ? `<span class="projects-caption__subtitle">${group.subtitle}</span>` : ""}
+            </caption>
             <colgroup>
               <col style="width: 40%">
               <col style="width: 60%">

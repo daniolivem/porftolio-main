@@ -10,8 +10,8 @@ O objetivo deste portfólio é apresentar minhas informações, experiências e 
 
 - `assets/img/` imagens do projeto
 - `css/` estilos globais
-- `js/` scripts JavaScript
-- arquivos `.html` na raiz
+- `js/` scripts JavaScript (conteúdo renderizado dinamicamente)
+- `index.html` como página única (SPA)
 
 ## 🚀 Como Visualizar
 

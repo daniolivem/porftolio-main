@@ -1,6 +1,7 @@
 const projectsData = [
   {
-    title: "Programa Residência em TIC 20<br>Capacita Brasil / C-Jovem",
+    title: "Programa Residência em TIC 20",
+    subtitle: "Capacita Brasil / C-Jovem",
     items: [
       {
         name: "Portfólio - HTML",
