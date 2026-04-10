@@ -117,6 +117,7 @@ const renderProjects = () => {
   if (!container) return;
 
   container.innerHTML = projectsData
+    .filter((group) => group.items.length > 0)
     .map((group) => {
       const rows = group.items
         .map((item) => {
@@ -131,6 +132,12 @@ const renderProjects = () => {
           `;
         })
         .join("");
+
+      const noteRow = `
+        <tr>
+          <td colspan="2">Observação: projetos em grupo podem sofrer alterações ao longo do tempo.</td>
+        </tr>
+      `;
 
       return `
         <section class="card">
@@ -150,6 +157,7 @@ const renderProjects = () => {
             </thead>
             <tbody>
               ${rows}
+              ${noteRow}
             </tbody>
           </table>
         </section>
