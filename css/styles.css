@@ -185,6 +185,12 @@ main {
   grid-template-columns: 1fr;
 }
 
+.projects-note {
+  margin: 4px 0 12px;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+
 .projects-table {
   width: 100%;
   border-collapse: collapse;

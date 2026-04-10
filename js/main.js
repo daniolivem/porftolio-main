@@ -35,28 +35,27 @@ const routes = {
       <section class="card">
         <h2>DANIELY OLIVEIRA</h2>
         <p>
-          Oi, eu sou a Dani! Sou farmacêutica há 10 anos e sempre fui apaixonada
-          por tecnologia. Essa curiosidade me levou à transição de carreira e,
-          desde então, venho construindo minha trajetória na área de
-          desenvolvimento com o objetivo de me tornar uma desenvolvedora full
-          stack.
+          Oi, eu sou a Dani! Sou farmacêutica há 10 anos e sempre tive um lado
+          curioso que me puxa para a tecnologia. Em um momento bem pessoal, senti
+          que era hora de me reinventar e comecei minha transição para o
+          desenvolvimento.
         </p>
         <p>
-          Até aqui, venho aprofundando meus estudos em HTML, CSS e JavaScript
-          para criar experiências digitais claras, acessíveis e bem projetadas,
-          sempre com atenção à organização do código e aos detalhes da
-          interface.
+          Tenho estudado HTML, CSS e JavaScript todos os dias, tentando transformar
+          teoria em prática e criando projetos que mostrem evolução real. Gosto de
+          código organizado, mas também me importo muito com a sensação de quem
+          usa o produto: para mim, experiência e cuidado fazem diferença.
         </p>
         <p>
-          Atualmente, faço parte do Capacita iRede em parceria com a UECE, onde
-          estudo Java, e sigo buscando oportunidades para aplicar esse
-          conhecimento em projetos reais.
+          Hoje, faço parte do Capacita iRede em parceria com a UECE, onde estudo
+          Java, e sigo buscando oportunidades para aplicar o que aprendo em
+          projetos reais. Também participei do Geração Tech 2.0 e da Residência em
+          TIC 20 (Avanti e UECE), experiências que me ensinaram muito sobre
+          colaboração e entrega em grupo.
         </p>
         <p>
-          Também participei do Geração Tech 2.0 e da Residência em TIC 20,
-          realizados em parceria com o Avanti e a UECE. Nessas experiências,
-          trabalhei em projetos em grupo e consolidei práticas de colaboração,
-          organização e entrega. Você pode ver esses projetos na guia Projetos.
+          Se quiser conhecer melhor essa caminhada, os projetos estão na guia
+          Projetos.
         </p>
       </section>
       <section class="card">
@@ -100,6 +99,7 @@ const routes = {
   `,
   projects: `
     <h1 class="page-title">Projetos</h1>
+    <p class="projects-note">Observação: projetos em grupo podem sofrer alterações ao longo do tempo.</p>
     <div class="projects" id="projects-list"></div>
   `,
 };
@@ -143,11 +143,6 @@ const renderProjects = () => {
         </tr>
       `
         : "";
-      const groupNoteRow = `
-        <tr>
-          <td colspan="2">Observação: projetos em grupo podem sofrer alterações ao longo do tempo.</td>
-        </tr>
-      `;
 
       return `
         <section class="card">
@@ -166,7 +161,6 @@ const renderProjects = () => {
             <tbody>
               ${rows}
               ${futureNoteRow}
-              ${groupNoteRow}
             </tbody>
           </table>
         </section>
