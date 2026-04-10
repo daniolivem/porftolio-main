@@ -5,8 +5,9 @@ const routes = {
         <h1 class="hero__title">DANIELY OLIVEIRA</h1>
         <p class="hero__subtitle">Dev Full Stack em formação</p>
         <p>
-          Estudante do curso Tecnólogo em Sistemas para Internet pela Universidade
-          Estadual do Piauí.
+          Estudante do Tecnólogo em Sistemas para Internet na UESPI, em transição
+          de carreira para desenvolvimento e focada em construir soluções web
+          com HTML, CSS, JavaScript e Java.
         </p>
         <div class="socials">
           <a href="https://www.instagram.com/daniolivem/" target="_blank" rel="noreferrer">
