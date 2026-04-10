@@ -38,7 +38,7 @@ const projectsData = [
     items: [
       {
         name: "Portfólio em HTML, CSS e JS",
-        tech: "Projeto em desenvolvimento na disciplina de Programação Web, com estrutura semântica e conteúdo renderizado via JavaScript.",
+        tech: "Projeto MVP em desenvolvimento na disciplina de Programação Web, com estrutura semântica e conteúdo renderizado via JavaScript.",
         link: "https://github.com/daniolivem/porftolio-main",
       },
     ],
