@@ -1,6 +1,6 @@
 const projectsData = [
   {
-    title: "Residência em TIC 20 - Capacita Brasil",
+    title: "Programa Residência em TIC 20<br>Capacita Brasil / C-Jovem",
     items: [
       {
         name: "Portfólio - HTML",
@@ -30,8 +30,24 @@ const projectsData = [
     ],
   },
   {
+    title: "Capacitação e Residência Tecnológica iRede - Java",
+    items: [
+      {
+        name: "Projeto Unidade 03 – Capacita iRede Java",
+        tech: "Primeiro projeto do Capacita iRede em Java, focado em fundamentos da linguagem.",
+        link: "https://github.com/daniolivem/ProjetoUnidade03",
+      },
+    ],
+  },
+  {
     title: "Geração Tech 2.0",
-    items: [],
+    items: [
+      {
+        name: "Projeto E-commerce - Drip Store",
+        tech: "Projeto em trio no Geração Tech 2.0 (IEL Ceará), com foco em estrutura de e-commerce.",
+        link: "https://github.com/daniolivem/drip-store-dc/tree/main",
+      },
+    ],
   },
   {
     title: "TSI - UESPI",
@@ -65,5 +81,50 @@ const skillsData = [
     name: "Bootstrap",
     image:
       "https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white",
+  },
+  {
+    name: "Java",
+    image:
+      "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white",
+  },
+  {
+    name: "Adobe XD",
+    image:
+      "https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=adobe%20xd&logoColor=white",
+  },
+  {
+    name: "Figma",
+    image:
+      "https://img.shields.io/badge/Figma-0ACF83?style=for-the-badge&logo=figma&logoColor=white",
+  },
+  {
+    name: "React",
+    image:
+      "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
+  },
+  {
+    name: "Vite",
+    image:
+      "https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white",
+  },
+  {
+    name: "PostgreSQL",
+    image:
+      "https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white",
+  },
+  {
+    name: "MySQL",
+    image:
+      "https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white",
+  },
+  {
+    name: "Supabase",
+    image:
+      "https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white",
+  },
+  {
+    name: "Prisma ORM",
+    image:
+      "https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white",
   },
 ];

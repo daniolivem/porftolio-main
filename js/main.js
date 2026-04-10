@@ -134,7 +134,16 @@ const renderProjects = () => {
         })
         .join("");
 
-      const noteRow = `
+      const hasFutureNote =
+        group.title.includes("UESPI") || group.title.includes("iRede");
+      const futureNoteRow = hasFutureNote
+        ? `
+        <tr>
+          <td colspan="2">Mais projetos serão adicionados em breve.</td>
+        </tr>
+      `
+        : "";
+      const groupNoteRow = `
         <tr>
           <td colspan="2">Observação: projetos em grupo podem sofrer alterações ao longo do tempo.</td>
         </tr>
@@ -143,14 +152,12 @@ const renderProjects = () => {
       return `
         <section class="card">
           <table class="projects-table">
+            <caption class="projects-caption">${group.title}</caption>
             <colgroup>
               <col style="width: 40%">
               <col style="width: 60%">
             </colgroup>
             <thead>
-              <tr>
-                <th colspan="2">${group.title}</th>
-              </tr>
               <tr>
                 <th>Projeto</th>
                 <th>Tecnologia</th>
@@ -158,7 +165,8 @@ const renderProjects = () => {
             </thead>
             <tbody>
               ${rows}
-              ${noteRow}
+              ${futureNoteRow}
+              ${groupNoteRow}
             </tbody>
           </table>
         </section>
